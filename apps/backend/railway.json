@@ -1,0 +1,4 @@
+{
+  "install": "pnpm install --frozen-lockfile --workspace-root",
+  "start": "pnpm run start"
+}
