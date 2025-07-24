@@ -1,4 +1,7 @@
 {
-  "install": "pnpm install --frozen-lockfile --workspace-root",
-  "start": "pnpm run start"
+  "build": "npm install -g pnpm && pnpm install --frozen-lockfile --workspace-root && pnpm run build",
+  "start": "node dist/index.js",
+  "env": {
+    "NODE_VERSION": "18"
+  }
 }
